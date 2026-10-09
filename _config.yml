@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &amp;name "Junteng Liu"
 description              : &amp;description "Junteng Liu's academic homepage"
 url                      : https://harmonbo19-bot.github.io # The base hostname &amp; protocol for your site
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "harmonbo19-bot/academicpages.github.io"
+baseurl                  : "/LJT-Homepage" # the subpath of your site
+repository               : "harmonbo19-bot/LJT-Homepage"
 
 # Site Author
 author:
