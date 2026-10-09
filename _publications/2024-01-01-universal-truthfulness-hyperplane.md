@@ -5,5 +5,3 @@ venue: "EMNLP 2024"
 year: 2024
 category: conferences
 ---
-
-First author. Code available on GitHub: Universal_Truthfulness_Hyperplane.
