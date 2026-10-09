@@ -25,6 +25,26 @@ My research focuses on natural language processing and machine learning, with sp
 - **Research Intern** (June 2024 – September 2024), Tencent WXG, advised by Zifei Shan
 - **Research Intern** (June 2023 – December 2023), Shanghai AI Lab, advised by Prof. Yu Cheng
 
+## Selected Publications
+
+See the [publications page](/publications/) for the full list.
+
+<ul>
+{% for pub in site.publications reversed %}
+  <li>
+    {{ pub.authors | markdownify | remove: '&lt;p&gt;' | remove: '&lt;/p&gt;' }}
+    ({{ pub.venue }}, {{ pub.year }})
+    <em>{{ pub.title }}</em>
+    {% if pub.content != "" %}
+      <br /><small>{{ pub.content | strip_html }}</small>
+    {% endif %}
+  </li>
+  {% if forloop.index == 6 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+</ul>
+
 ## Awards
 
 - Zhiyuan Honor Scholarship, Shanghai Jiao Tong University
